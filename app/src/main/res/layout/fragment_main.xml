@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/bg_top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/textView_top_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dip"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/main1_1"
+                    android:textColor="#626262"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/main1_2"
+                    android:textColor="#a3a3a3"
+                    android:textSize="13sp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <LinearLayout
+                    android:layout_marginTop="15dip"
+                    android:id="@+id/linearLayout_native"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dip"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="15dip"
+                    android:text="무료노래방 테마곡"
+                    android:textColor="#626262"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:text="가수별 모음집 입니다."
+                    android:textColor="#a3a3a3"
+                    android:textSize="13sp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:visibility="gone"
+                    android:id="@+id/recycler_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="15dip"
+                    android:text="@string/main3_1"
+                    android:textColor="#626262"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/main3_2"
+                    android:textColor="#a3a3a3"
+                    android:textSize="13sp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_marginTop="15dip"
+                    android:id="@+id/linearLayout_native2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dip"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="15dip"
+                    android:text="@string/main4_1"
+                    android:textColor="#626262"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/main4_2"
+                    android:textColor="#a3a3a3"
+                    android:textSize="13sp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

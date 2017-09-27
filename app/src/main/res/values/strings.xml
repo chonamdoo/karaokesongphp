@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Hát Karaoke</string>
+    <string name="popupview_null">Có thể sau khi cài đặt.</string>
+    <string name="finish_message">Xin chào. Cảm ơn bạn đã sử dụng ứng dụng.\n\n Tôi sẽ luôn cố gắng hết sức để cập nhật nó.\n\n Nếu bạn cho tôi đánh giá và đánh giá, nhà phát triển có thể có được nhiều quyền lực.\n\n Cảm ơn bạn.</string>
+    <string name="review">Đánh giá</string>
+    <string name="cancel">Hủy</string>
+    <string name="finish">Thoát</string>
+    <string name="push">Cài đặt thông báo</string>
+    <string name="version">Build Version </string>
+    <string name="bookmark_save">Yêu thích đã được lưu.</string>
+    <string name="bookmark_cancel">Dấu trang bị hủy.</string>
+
+    <string name="video">Video</string>
+    <string name="my">Bài hát của tôi</string>
+    <string name="total">Chó</string>
+    <string name="main1_1">Điểm nổi bật về karaoke miễn phí</string>
+    <string name="main1_2">Gần đây, tôi giới thiệu các bài hát hot.</string>
+
+    <string name="main3_1">Miễn phí karaoke Bài hát phổ biến hôm nay</string>
+    <string name="main3_2">Đây là một bài hát phát hành ngay bây giờ.</string>
+
+    <string name="main4_1">Miễn phí Karaoke Bài hát mới hôm nay</string>
+    <string name="main4_2">Tôi đã có một bài hát mới nóng mới.</string>
+
+    <string name="search_input">Nhập cụm từ tìm kiếm (ca sĩ, tiêu đề, v.v ...)</string>
+    <string name="search_pop">Tìm kiếm phổ biến</string>
+    <string name="top_search">Tìm kiếm</string>
+    <string name="top_setting">Thiết lập</string>
+    <string name="top_bookmark">Yêu thích</string>
+    <string name="top_my">Bài hát của tôi</string>
+
+    <string name="setting_video_auto">Tự động bắt đầu video</string>
+    <string name="setting_record_auto">Bắt đầu thu âm tự động</string>
+    <string name="setting_record_auto_finish">Tự động kết thúc ghi âm</string>
+
+    <string name="go">Phím tắt</string>
+    <string name="order_regdate">Đã đăng ký</string>
+    <string name="order_hit">Xem</string>
+
+    <string name="recom_list">Danh sách đề xuất</string>
+    <string name="share">Chia sẻ</string>
+    <string name="bookmark">dấu trang</string>
+
+    <string name="sub_record_start">Bắt đầu ghi hình.</string>
+    <string name="sub_re_record_start">Ghi lại đã được tiếp tục.</string>
+    <string name="sub_record_pause">Ghi âm đã bị tạm dừng.</string>
+    <string name="sub_my_record_ok">Hãy kiểm tra bài hát đã ghi trong bài hát của tôi. Cảm ơn bạn.</string>
+    <string name="sub_record_back">Ghi âm đã bị dừng lại bằng cách lùi lại trong quá trình ghi. Hãy kiểm tra bài hát đã ghi trong bài hát của tôi. Cảm ơn bạn.</string>
+    <string name="error">Nếu bạn tiếp tục gặp sự cố, vui lòng liên hệ với quản trị viên của bạn.</string>
+
+    <string name="location_agree">내 위치를 동의하시겠습니까?</string>
+    <string name="location_gps">정확한 현재 위치 설정을 위해 위치 서비스 사용 권한을 켜주세요. </string>
+    <string name="location_success">확인</string>
+    <string name="location_cancel">취소</string>
+    <string name="car_location">길찾기 사용이 가능합니다.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <kr.ds.widget.ScrollGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="2dip"
+        android:numColumns="2"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:scrollbars="none"
+        android:verticalSpacing="2dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        style="@style/ListViewStyle"/>
+
+</LinearLayout>

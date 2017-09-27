@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="20dip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:paddingLeft="10dip"
+            android:textColor="@color/app_color"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천어플"/>
+
+        <kr.ds.widget.ScrollListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+            android:scrollbars="vertical"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

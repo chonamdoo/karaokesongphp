@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical"></FrameLayout>
+
+        <kr.ds.dev.DevBannerView
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </kr.ds.dev.DevBannerView>
+
+        <LinearLayout
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_tab1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView_tab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn1" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_tab2"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView_tab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_tab6"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView_tab6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn6" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_tab3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView_tab3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn3" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_tab4"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView_tab4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn4" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_tab5"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView_tab5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn5" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

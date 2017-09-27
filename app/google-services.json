@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333912725701",
+    "project_id": "karaokesongphp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333912725701:android:799899f033de58fa",
+        "android_client_info": {
+          "package_name": "kr.ds.karaokesongphp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333912725701-9mft3abot4ourav16hjsvbnr13ol6sb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Tp-ev9fL5mUK0dl2pW7CozD4g9UaUvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
