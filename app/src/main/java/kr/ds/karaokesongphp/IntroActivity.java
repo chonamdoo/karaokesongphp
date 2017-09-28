@@ -28,8 +28,8 @@ public class IntroActivity extends BaseActivity{
         ShortcutBadger.removeCount(getApplicationContext());
         SharedPreference.putSharedPreference(getApplicationContext(), "badger_count", 0);
 
-        OnNext();
-        //setAdMob();
+        //OnNext();
+        setAdMob();
 
     }
     public void setAdMob(){

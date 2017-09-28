@@ -17,12 +17,6 @@
             android:layout_weight="1"
             android:orientation="vertical"></FrameLayout>
 
-        <kr.ds.dev.DevBannerView
-            android:background="#ffffff"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </kr.ds.dev.DevBannerView>
-
         <LinearLayout
             android:paddingTop="2dip"
             android:paddingBottom="2dip"

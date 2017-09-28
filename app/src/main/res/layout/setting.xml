@@ -232,15 +232,6 @@
                 </View>
             </LinearLayout>
 
-
-
-            <kr.ds.dev.DevView
-                android:layout_marginTop="15dip"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </kr.ds.dev.DevView>
-
-
         </LinearLayout>
     </ScrollView>
 
